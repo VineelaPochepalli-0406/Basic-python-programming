@@ -1,0 +1,7 @@
+theory=int(input())
+practical=int(input())
+total=int(input())
+if(theory>=35 and practical>=15 or total>=60):
+    print("Pass")
+else:
+    print("Fail")

@@ -1,0 +1,10 @@
+a=10
+b=20
+if(a>0 and b<20):
+    print("And operation")
+if(a>0 or b<20):
+    print("Or operation")
+if not(a!=0):
+    print("Not operation")
+    
+    

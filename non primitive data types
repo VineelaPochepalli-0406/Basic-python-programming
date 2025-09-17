@@ -1,0 +1,8 @@
+li=[1,2,3,4]
+tu=(1,2,3,4)
+set={1,2,3,4}
+dicti={"name":"vineela","age":20}
+print(li)
+print(tu)
+print(set)
+print(dicti)

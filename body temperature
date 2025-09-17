@@ -1,0 +1,13 @@
+fever=101
+normal=97
+cold=94
+temp=int(input())
+if(temp>=fever):
+    print("Fever")
+elif(temp==normal):
+    print("Normal")
+elif(temp<=cold):
+    print("cold")
+else:
+    print("Error")
+

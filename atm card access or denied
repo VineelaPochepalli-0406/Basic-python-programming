@@ -1,0 +1,11 @@
+atm=1           #here 1 means yes and 0 means no
+pin=1
+blocked=0
+a=input()
+b=input() 
+c=input()
+if(a==atm and b==pin and c==blocked):
+    print("Access atm")
+else:
+    print("Not access atm")
+

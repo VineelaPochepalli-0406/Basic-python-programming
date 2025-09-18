@@ -1,0 +1,42 @@
+print("Welcome to ABC restaurent")
+print("Choose your menu:")
+print("1.Idly-25")
+print("2.Dosa-20")
+print("3.Puri-25")
+print("4.Vada-30")
+print("5.Upma-20")
+choice=int(input("Choose your option:"))
+Quantity=int(input("Quantity:"))
+print("Bill:")
+if (choice==1):
+    price=25
+    total=price*Quantity
+    print("Choice:Idly")
+    print("Quantity:",Quantity)
+    print("Total:",total)
+elif (choice==2):
+    price=20
+    total=price*Quantity
+    print("Choice:Dosa") 
+    print("Quantity:",Quantity)
+    print("Total:",total)
+elif (choice==3):
+    price=25
+    total=price*Quantity
+    print("Choice:Puri")
+    print("Quantity:",Quantity)
+    print("Total:",total)
+elif (choice==4):
+    price=30
+    total=price*Quantity
+    print("Choice:Vada")
+    print("Quantity:",Quantity)
+    print("Total:",total)
+elif (choice==5):
+    price=20
+    total=price*Quantity
+    print("Choice:Upma")
+    print("Quantity:",Quantity)
+    print("Total:",total)
+else:
+    print("Service not available")
